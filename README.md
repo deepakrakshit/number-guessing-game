@@ -1,33 +1,48 @@
-# 📌 NUMBER GUESSING GAME IN C
+# 📌 Number Guessing Game (C Language)
 
-A simple C mini project where the computer randomly selects a number between 1 and 100, and the player must guess it.
-After each guess, the program gives helpful hints:
+A fun and beginner-friendly **Number Guessing Game** written in C.
+The computer randomly picks a number between **1 and 100**, and your job is to guess it! After each guess, the program gives you helpful hints to guide you toward the correct number.
 
-🔼 "Higher Number Please!" → your guess is too low
-🔽 "Lower Number Please!" → your guess is too high
+---
 
-When you finally get the number right, the program shows how many attempts you took.
+# 🎮 Overview
 
-This is my first C project, created while learning C programming.
+This simple project is perfect for beginners learning C. It demonstrates:
 
-# 🧠 FEATURES
-- Random number generation
-- User input with validation
-- Helpful clues after each guess
-- Counts total number of attempts
-- Uses loops, conditions, variables, RNG → great for beginners
-- Clean and simple code
+* Random number generation
+* Loops
+* Conditional logic
+* Input handling
+* Basic game mechanics
 
-# 📝 HOW THE GAME WORKS
-1. The program picks a random number between 1 and 100.
-2. You guess a number.
-3. The program tells you:
-   - “Higher Number Please!” if your guess is too low
-   - “Lower Number Please!” if your guess is too high
-4. You keep guessing until you get it right.
-5. The program shows the total attempts you used.
+---
 
-# 🧪 SAMPLE OUTPUT
+# 🧠 Features
+
+* Fully interactive terminal game
+* Random number generated using `rand()` and `srand()`
+* Helpful hints:
+
+  * **Higher Number Please!** → your guess is too low
+  * **Lower Number Please!** → your guess is too high
+* Counts total attempts
+* Validates input to prevent out-of-range guesses
+* Clean and readable code structure
+
+---
+
+# 📝 How the Game Works
+
+1. The program secretly picks a number from **1 to 100**.
+2. You keep guessing numbers.
+3. After each guess, the program tells you if it's too high or too low.
+4. When you guess correctly, it shows how many attempts you took.
+
+---
+
+# 🧪 Sample Gameplay
+
+```
 === Number Guessing Game ===
 I'm thinking of a number between 1 and 100.
 Guess a number between 1 to 100: 50
@@ -36,28 +51,47 @@ Guess a number between 1 to 100: 75
 Lower Number Please!
 Guess a number between 1 to 100: 63
 Correct!
-You guessed the number in 3 times
+You guessed the number in 3 attempts.
+```
 
-# 🚀 HOW TO COMPILE & RUN
-Windows (MinGW / TDM-GCC):
+---
+
+# 🚀 How to Compile & Run
+
+### **Windows (MinGW / TDM-GCC)**
+
+```
 gcc guess.c -o guess.exe
 guess.exe
+```
 
-Linux / macOS:
+### **Linux / macOS**
+
+```
 gcc guess.c -o guess
 ./guess
+```
 
-# 📂 FILES INCLUDED
-- guess.c (Main source code)
+---
 
-# 🎯 WHAT I LEARNED
-- Loops (do-while)
-- Random numbers using rand() and srand()
-- Conditions (if-else)
-- User input handling
-- Game logic
-- Writing readable C code
+# 📂 Files Included
 
-👨‍💻 AUTHOR
-Deepak Rakshit
-This is my very first C project — more coming soon!
+* **guess.c** → Main source code of the project.
+
+---
+
+# 🎯 What You Learn
+
+* Using `rand()` and `srand()` for randomness
+* Loops (`do-while`)
+* If-else conditional structures
+* Handling user input
+* Game design logic
+* Improving code readability
+
+---
+
+# 👨‍💻 Author
+
+**Deepak Rakshit**
+This is one of my early C projects — more cool programs coming soon!
