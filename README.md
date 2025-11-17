@@ -1,42 +1,30 @@
-# 📌 Number Guessing Game (C Language)
+# 🔢 Number Guessing Game – C Project
 
-A fun and beginner-friendly **Number Guessing Game** written in C.
-The computer randomly picks a number between **1 and 100**, and your job is to guess it! After each guess, the program gives you helpful hints to guide you toward the correct number.
-
----
-
-# 🎮 Overview
-
-This simple project is perfect for beginners learning C. It demonstrates:
-
-* Random number generation
-* Loops
-* Conditional logic
-* Input handling
-* Basic game mechanics
+A simple and enjoyable **Number Guessing Game** written in C. The computer secretly picks a random number between **1 and 100**, and your task is to guess it! After every guess, the program gives you a helpful hint.
 
 ---
 
-# 🧠 Features
+# ⭐ Features
 
-* Fully interactive terminal game
-* Random number generated using `rand()` and `srand()`
-* Helpful hints:
-
-  * **Higher Number Please!** → your guess is too low
-  * **Lower Number Please!** → your guess is too high
-* Counts total attempts
-* Validates input to prevent out-of-range guesses
-* Clean and readable code structure
+* 🎲 Random number generation
+* 💬 Helpful hints after each guess
+* 🔢 Validates out-of-range inputs
+* 🔁 Repeats until you guess correctly
+* 🧮 Shows number of attempts
+* 🧩 Beginner-friendly C program
 
 ---
 
-# 📝 How the Game Works
+# 🧠 How the Game Works
 
-1. The program secretly picks a number from **1 to 100**.
-2. You keep guessing numbers.
-3. After each guess, the program tells you if it's too high or too low.
-4. When you guess correctly, it shows how many attempts you took.
+1. The program chooses a number from **1–100** 🎯
+2. You enter guesses 🔢
+3. It responds with:
+
+   * ⬆️ **Higher Number Please!** (guess is low)
+   * ⬇️ **Lower Number Please!** (guess is high)
+4. You continue until you guess it right ✔️
+5. The program tells you how many attempts you used 🧮
 
 ---
 
@@ -56,16 +44,16 @@ You guessed the number in 3 attempts.
 
 ---
 
-# 🚀 How to Compile & Run
+# 🚀 Compile & Run
 
-### **Windows (MinGW / TDM-GCC)**
+### Windows
 
 ```
 gcc guess.c -o guess.exe
 guess.exe
 ```
 
-### **Linux / macOS**
+### Linux / macOS
 
 ```
 gcc guess.c -o guess
@@ -74,24 +62,12 @@ gcc guess.c -o guess
 
 ---
 
-# 📂 Files Included
+# 📂 File Included
 
-* **guess.c** → Main source code of the project.
-
----
-
-# 🎯 What You Learn
-
-* Using `rand()` and `srand()` for randomness
-* Loops (`do-while`)
-* If-else conditional structures
-* Handling user input
-* Game design logic
-* Improving code readability
+* `guess.c`
 
 ---
 
 # 👨‍💻 Author
 
-**Deepak Rakshit**
-This is one of my early C projects — more cool programs coming soon!
+Made by **Deepak Rakshit** as part of learning C programming.
